@@ -1,5 +1,5 @@
 # python_basic_4_12_2020
-Geekbrains 
+# Geekbrains 
 time = 10 
 speed = 5
 distance = speed * time
