@@ -1,0 +1,8 @@
+number = int(input('Введите целое положительное число: '))
+number_first = number % 10
+while number > 0:
+   number_last = int(number % 10)
+   number = int(number / 10)
+   if number_first < number_last:
+         number_first = number_last
+print(number_first)
