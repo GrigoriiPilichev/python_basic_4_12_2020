@@ -1,0 +1,12 @@
+proceeds = int(input("Введите размер выручки"))
+costs = int(input('Введите размер издержки'))
+if proceeds > costs:
+    profit = proceeds - costs
+    print("Поздравляем, выручка превышает издержки, прибыль составляет: ",  profit)
+    profitability = (profit / proceeds) * 100
+    print("Рентабельность вашей выручки составляет: ",  profitability)
+    number_of_employees = int(input("Введите количество сотрудников вашей фирмы"))
+    profit_per_employee = profit / number_of_employees
+    print("Прибыль в рассчете на одного сотрудника составляет: ",  profit_per_employee)
+else:
+    print("К сожалению, вы работаете в убыток, издержки превышают вашу выручку.")
