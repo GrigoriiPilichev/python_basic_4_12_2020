@@ -1,9 +1,0 @@
-initial_result = int(input("Введите исходный результат: "))
-desired_result = int(input("Введите желаемый результат: "))
-while initial_result <= desired_result:
-    new_result = int((initial_result / 10) + initial_result)
-    day = 0
-    new_day = int(day + 1)
-    print("В ", new_day, "день: ", for_ew_result)
-    initial_result = new_result
-    day = new_day

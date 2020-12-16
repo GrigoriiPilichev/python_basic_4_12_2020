@@ -1,0 +1,13 @@
+initial_result = int(input("Введите исходный результат: "))
+desired_result = int(input("Введите желаемый результат: "))
+day = 0
+while initial_result < desired_result:
+    new_result = initial_result / 10 + initial_result
+    new_day = int(day + 1)
+    print("В ", new_day, "день: ", new_result)
+    initial_result = new_result
+    day = new_day
+    if initial_result >= desired_result:
+        last_day = new_day
+        last_result = initial_result
+        print("Поздравляю!")
