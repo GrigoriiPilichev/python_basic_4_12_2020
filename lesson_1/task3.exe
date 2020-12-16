@@ -1,0 +1,6 @@
+time_user = int(input("Введите время в секундах"))
+time_second = time_user % 60
+time_minutes = int(time_user / 60)
+time_minutes_ = time_minutes % 60
+time_hour = int(time_minutes / 60)
+print(f"Результат перевода в часовом формате: {time_hour}: {time_minutes_}: {time_second}")
