@@ -1,1 +1,4 @@
-
+age = int(input("Введите ваш возраст: "))
+name = input("Введите ваше имя: ")
+surname = input("Введите вашу фамилию: ")
+print("Ваши личные данные", name, surname, age)
