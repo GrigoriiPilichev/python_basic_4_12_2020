@@ -1,6 +1,0 @@
-variable_number = int(input('Введите число: '))
-variable_summ_dozens = variable_number + variable_number * 10
-variable_summ_hundreds = variable_summ_dozens * 10 + variable_number
-result = variable_number + variable_summ_dozens + variable_summ_hundreds
-print(f"{variable_number} + {variable_summ_dozens} + {variable_summ_hundreds} = {result}")
-
